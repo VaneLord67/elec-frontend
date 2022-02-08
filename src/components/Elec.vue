@@ -51,6 +51,7 @@ export default {
             name: "电量",
             type: "bar",
             data: this.elecY,
+            itemStyle : {normal: {label:{show:true}}}
           },
         ],
       };
